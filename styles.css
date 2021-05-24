@@ -1,0 +1,138 @@
+
+h2 {
+    font-size: 78px;
+    font-weight: bold;
+    text-align: center;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.header {
+    background-color: salmon;
+    margin: 0px;
+}
+
+.header h1 {
+    margin: 0px;
+    text-align: center;
+    font-size: 72px;
+}
+.main-nav {
+    background-color: salmon;
+}
+
+.main-nav h1 {
+    text-align: center;
+}
+.main-nav li {
+    display:inline;
+    font-size: 18px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: .5em;
+    color:white;
+}
+.main-nav a:hover{   /* Hover selector */
+    background-color: rgba(219, 82, 82, 0.3);
+}
+
+.btn-landing {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background: #EBEBEB;
+    border: 1px solid #BDBDBD;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 600px;
+    backdrop-filter: blur(4px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 1px;
+}
+h3 {
+    text-align: center;
+    font-size: 48px;
+}
+.fact-page {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.global-total {
+    border: 5px solid black;
+    width: 400px;
+    padding: 0px;
+    margin: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+    background-color: white;
+    
+}
+
+.global-total h3 {
+    font-size: 48px;
+    padding: 0px;
+    margin: 5px;
+    text-align: center;
+}
+
+p.cases {
+    color: blue;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}
+
+p.deaths {
+    color: red;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}
+
+.most-affected {
+    border: 5px solid black;
+    width: 400px;
+    padding: 0px;
+    margin: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+    background-color: white;
+}
+
+.most-affected:hover {
+    background-color: #BDBDBD;
+}
+.random-stats {
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 28px;
+    line-height: 33px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    width: 600px;
+    text-decoration: none;
+    
+    
+}
+
+.random-stats a {
+    text-decoration: none;
+}
+.random-stats:hover {
+    background-color: rgb(216, 216, 216);
+}
+.random-stats p {
+    font-size: 12;
+    display: inline;
+}
